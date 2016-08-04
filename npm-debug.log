@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/alexanderko/.nvm/versions/node/v5.8.0/bin/node',
+1 verbose cli   '/Users/alexanderko/.nvm/versions/node/v5.8.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.2
+3 info using node@v5.8.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/alexanderko/Sites/google/chrome/hide-images',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/alexanderko/.npm correctMkdir not in flight; initializing
+10 info lifecycle chrome-extension-hide-images-button@0.1.0~prepublish: chrome-extension-hide-images-button@0.1.0
+11 silly lifecycle chrome-extension-hide-images-button@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package.tgz',
+12 verbose tar pack   '/Users/alexanderko/Sites/google/chrome/hide-images' ]
+13 verbose tarball /Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package.tgz
+14 verbose folder /Users/alexanderko/Sites/google/chrome/hide-images
+15 verbose addLocalTarball adding from inside cache /Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package.tgz
+16 verbose correctMkdir /Users/alexanderko/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd chrome-extension-hide-images-button@0.1.0
+18 verbose afterAdd /Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/alexanderko/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/alexanderko/.npm/chrome-extension-hide-images-button/0.1.0/package/package.json written
+21 silly publish { name: 'chrome-extension-hide-images-button',
+21 silly publish   version: '0.1.0',
+21 silly publish   private: true,
+21 silly publish   scripts: { build: 'node node_modules/webpack/bin/webpack.js' },
+21 silly publish   description: 'Chrome extension to hide images by badge click',
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies: { eslint: '^3.2.2', webpack: '^1.12.1' },
+21 silly publish   readme: '# chrome-extension-hide-images-button\n\nHide images by chrome extension badge click.\nSometimes you just want to hide all of them in a page :clap:\n\n## Install\n\nInstall from npm or clone from github\n```\nnpm i chrome-extension-hide-images-button\n```\n\nLoad [unpacked chrome extension](https://developer.chrome.com/extensions/getstarted#unpacked):\n\n1. Visit chrome://extensions in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox:  The menu\'s icon is three horizontal bars. and select Extensions under the Tools menu to get to the same place).\n\n2. Ensure that the Developer mode checkbox in the top right-hand corner is checked.\n\n3. Click Load unpacked extension… to pop up a file-selection dialog.\n\n4. Navigate to the directory in which your extension files live (`chrome-extension-hide-images-button`), and select it. Alternatively, you can drag and drop the directory where your extension files live onto chrome://extensions in your browser to load it.\n\n## Build\n\n```\nnpm run build\n```\n\n## Develop\n\nRun build watch\n\n```\nnpm run build -- -w\n```\n\n## Resources\n\n- [Chrome Extensions Tutorial](https://developer.chrome.com/extensions/getstarted)',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'd4e9e26c7a783a4ccfece4868c34c1eb0503b1b5',
+21 silly publish   _id: 'chrome-extension-hide-images-button@0.1.0',
+21 silly publish   _shasum: '39b6a4233350fc0b51129df5b73e00a948edb473',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 verbose stack Error: This package has been marked as private
+23 verbose stack Remove the 'private' field from the package.json to publish it.
+23 verbose stack     at publish_ (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/lib/publish.js:101:15)
+23 verbose stack     at Array.<anonymous> (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+23 verbose stack     at LOOP (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+23 verbose stack     at LOOP (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+23 verbose stack     at chain (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+23 verbose stack     at /Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/lib/publish.js:73:5
+23 verbose stack     at RES (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+23 verbose stack     at f (/Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/once/once.js:17:25)
+23 verbose stack     at /Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/lib/cache.js:363:16
+23 verbose stack     at /Users/alexanderko/.nvm/versions/node/v5.8.0/lib/node_modules/npm/node_modules/write-file-atomic/index.js:29:9
+24 verbose cwd /Users/alexanderko/Sites/google/chrome/hide-images
+25 error Darwin 15.4.0
+26 error argv "/Users/alexanderko/.nvm/versions/node/v5.8.0/bin/node" "/Users/alexanderko/.nvm/versions/node/v5.8.0/bin/npm" "publish"
+27 error node v5.8.0
+28 error npm  v3.10.2
+29 error This package has been marked as private
+29 error Remove the 'private' field from the package.json to publish it.
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]
