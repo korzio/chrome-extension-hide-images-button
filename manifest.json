@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Images Button",
+    "version": "0.1.0",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "icons": {
+        "24": "images/Fry24.png",
+        "48": "images/Fry48.png",
+        "128": "images/Fry128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/Fry24.png",
+            "38": "images/Fry48.png"
+        },
+        "default_title": "Reload"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "dist/content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "background": {
+        "scripts": [
+            "dist/background.js"
+        ]
+    },
+    "web_accessible_resources": [
+        "dist/*",
+        "images/*"
+    ]
+}

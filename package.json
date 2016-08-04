@@ -1,0 +1,14 @@
+{
+  "name": "chrome-extension-hide-images-button",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node node_modules/webpack/bin/webpack.js"
+  },
+  "description": "Chrome extension to hide images by badge click",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "webpack": "^1.12.1"
+  }
+}
